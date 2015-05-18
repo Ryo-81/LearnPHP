@@ -6,9 +6,13 @@ class Counter {
 	/**
 	 * @アクセスカウンタ
 	 * @インスタンス時にカウントアップ
+	 * @
 	 * @コンストラクタ
 	 * @void __construct($str_fileDir = "./")
 	 * @ String $str_fileDir カウンタファイルのあるディレクトリ、デフォルトはルートディレクトリ
+	 * @
+	 * @カウント数を取得
+	 * @int Get_int_Count()
 	 */
 	function __construct($str_fileDir = "./") {
 		$this -> str_fileDir = rtrim($str_fileDir, "/") . "/";
@@ -30,11 +34,6 @@ class Counter {
 			echo $e;
 		}
 	}
-	/*
-	 * @カウント数を取得
-	 * @int Get_int_Count()
-	 *
-	 */
 	function Get_int_Count() {
 		return $this -> int_count;
 	}
