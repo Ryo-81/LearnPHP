@@ -1,6 +1,6 @@
 <?php
 class Counter {
-	private $str_fileName = "_A_COUNT.txt";
+	protected $str_fileName = "_A_COUNT.txt";
 	protected $str_fileDir;
 	protected $int_count;
 	/**
