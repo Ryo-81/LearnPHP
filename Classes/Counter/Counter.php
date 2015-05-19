@@ -1,8 +1,8 @@
 <?php
 class Counter {
-	private $str_fileDir;
 	private $str_fileName = "_A_COUNT.txt";
-	private $int_count;
+	protected $str_fileDir;
+	protected $int_count;
 	/**
 	 * @アクセスカウンタ
 	 * @インスタンス時にカウントアップ
