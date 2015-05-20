@@ -1,2 +1,2 @@
 # LearnPHP
-LearningPHPs
+LearningPHPplus
