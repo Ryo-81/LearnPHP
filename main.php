@@ -1,6 +1,7 @@
 <?php
-$str_ClassPath = dirname(__FILE__) . '/Classes/Counter/ImageCounter.php';
-include_once $str_ClassPath;
+include_once './Classes/Counter/Counter.php';
+include_once './Classes/Counter/ImageCounter.php';
 
 $c = new ImageCounter();
-echo $c -> Get_str_CountImage(8);
+// echo $c -> Get_int_Count();
+$c -> Get_HTML_CountImage();
